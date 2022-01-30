@@ -39,7 +39,7 @@ const MORSE_TABLE = {
 
 function decode(expr) {
 
-  var symbols = expr.match(/.{10}/g);
+  let symbols = expr.match(/.{10}/g);
   let result = [];
   
     for (let i=0; i<symbols.length; i++) {
